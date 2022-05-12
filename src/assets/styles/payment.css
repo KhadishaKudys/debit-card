@@ -1,0 +1,149 @@
+.payment {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.card-info {
+  padding-top: 50px;
+  text-align: left;
+  height: fit-content;
+}
+
+.creditcard {
+  border: 3px solid #f4f4f4;
+  border-radius: 10px;
+  background: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgba(68, 68, 68, 0.525);
+}
+
+.creditcard:focus,
+.creditcard:active {
+  background: rgba(226, 0, 120, 0.021);
+  border: 3px solid #ff0099;
+  outline: none;
+  color: #ff0099;
+}
+
+#debit-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  padding-right: 70px;
+  border: none;
+  font-size: 14px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.05);
+  margin-bottom: 50px;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.pay-btn {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(
+    250.57deg,
+    rgba(255, 0, 153, 0.2) 14.03%,
+    rgba(0, 10, 255, 0.2) 99.76%
+  );
+  padding: 17px 0px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.pay-btn:hover,
+.pay-btn:focus,
+.pay-btn:active {
+  background: linear-gradient(250.57deg, #ff0099 14.03%, #000aff 99.76%);
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: white;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(68, 68, 68, 0.525);
+}
+
+.alert-payment {
+  z-index: 1000;
+  border: none;
+  position: absolute;
+  top: 95%;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.alert-heading {
+  font-size: 14px;
+}
+
+.form-errors {
+  color: #ff0099;
+  font-size: 12px;
+}
+
+::placeholder {
+  color: rgba(68, 68, 68, 0.178);
+}
+
+#card-example {
+  background-image: url("../static/card-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 180px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.alert-payment {
+  border: none;
+  padding: 10px 20px;
+  position: inherit;
+  border-radius: 10px;
+  margin-top: 42px;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  background-color: rgb(122, 208, 130);
+}

@@ -1,0 +1,25 @@
+.success {
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.btn-1 {
+  border-radius: 10px;
+  border: none;
+  color: #ff0099;
+  font-size: 16px;
+  font-weight: 600;
+  background: white;
+  padding: 17px 0px;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.btn-1:hover,
+.btn-1:focus,
+.btn-1:active {
+  color: white;
+  background: linear-gradient(250.57deg, #ff0099 14.03%, #000aff 99.76%);
+}
